@@ -1,0 +1,1 @@
+export function Brand({light=false}:{light?:boolean}){return <span aria-label="koda" className={`display inline-flex items-baseline text-[1.75rem] font-bold leading-none ${light?"text-white":"text-[#171918]"}`}>koda<span className="text-[#315f50]">.</span></span>}
