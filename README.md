@@ -1,23 +1,23 @@
 # koda.
 
-Sitio de diseño y desarrollo web freelance de Adán, construido con Next.js, TypeScript y Tailwind CSS.
+Freelance web design and development site for Adán, built with Next.js, TypeScript and Tailwind CSS.
 
-## Desarrollo
+## Development
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Verificación
+## Verification
 
 ```bash
 npm run typecheck
 npm run build
 ```
 
-El contenido editable de servicios, precios, proyectos y enlaces está centralizado en `lib/content.ts`. El formulario no requiere variables de entorno: valida los datos y abre WhatsApp con el mensaje preparado.
+Editable services, pricing, projects and contact links are centralized in `lib/content.ts`. The contact form does not require environment variables: it validates the visitor's details and opens their email application with a prepared message.
 
-## Despliegue
+## Deployment
 
-Importa el repositorio en Vercel. Next.js se detecta automáticamente. Antes de conectar un dominio, actualiza `metadataBase` en `app/layout.tsx`.
+Import the repository into Vercel. Next.js is detected automatically. Before connecting a domain, update `metadataBase` in `app/layout.tsx`.
