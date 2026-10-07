@@ -1,5 +1,6 @@
 export const EMAIL="hello.adanrios@gmail.com";
 export const EMAIL_LINK=`mailto:${EMAIL}?subject=${encodeURIComponent("Website project inquiry")}`;
+export const FORM_ENDPOINT="https://formspree.io/f/xdeaazop";
 export const IG="https://www.instagram.com/kodaproyectos_";
 export const services=[
  {n:"01",title:"Landing pages",text:"A focused, fast and persuasive page designed to present one offer and turn interest into inquiries."},

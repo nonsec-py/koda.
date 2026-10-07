@@ -16,7 +16,7 @@ npm run typecheck
 npm run build
 ```
 
-Editable services, pricing, projects and contact links are centralized in `lib/content.ts`. The contact form does not require environment variables: it validates the visitor's details and opens their email application with a prepared message.
+Editable services, pricing, projects and contact links are centralized in `lib/content.ts`. The contact form sends inquiries through Formspree; its endpoint is configured as `FORM_ENDPOINT` in the same file.
 
 ## Deployment
 
